@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>潘功森的简历</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remodal/1.1.0/remodal.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remodal/1.1.0/remodal-default-theme.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/remodal/1.1.0/remodal.min.js"></script>
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <div class="container" id="cv">
+        <div class="side">
+            <div class="me">
+                <div class="portrait"></div>
+                <div class="remodal remodal-img" data-remodal-id="portrait-modal">
+                    <h3>请输入图片URL地址：</h3>
+                    <br/>
+                    <input type="text" id="avatar-url">
+                    <button data-remodal-action="confirm" class="remodal-confirm">确定</button>
+                </div>
+                <h1 id="username" >潘功森</h1>
+                <h4 id="persona-tag" >Java后台 / Web / 金融系统</h4>
+            </div>
+            <div class="profile info-unit">
+                <h2 class="info-header"><i class="iconfont icon-person"></i> <span class="info-title">基本信息</span></h2>
+                <hr>
+                <ul class="info-list">
+					<li>
+                        <label class="left-label">求职意向</label><span class="label-value">Java软件开发工程师</span></li>
+					<li>
+                        <label class="left-label">出生年月</label><span class="label-value">1992年9月</span></li>
+                    <li>
+                        <label class="left-label">政治面貌</label><span class="label-value">中共党员</span></li>
+                </ul>
+            </div>
+            <div class="contact info-unit">
+                <h2 class="info-header"><i class="iconfont icon-call"></i> <span class="info-title">联系方式</span></h2>
+                <hr>
+                <ul class="info-list">
+                    <li>
+                        <label class="left-label">手机</label><span class="label-value">1886880XXXX</span></li>
+                    <li>
+                        <label class="left-label">邮箱</label><span class="label-value">pangongsen@hotmail.com</span></li>
+                    <li>
+                        <label class="left-label">电子版简历</label><span class="label-value">pangongsen.github.io/cv/</span></li>
+                </ul>
+            </div>
+            <div class="skill info-unit">
+                <h2 class="info-header"><i class="iconfont icon-star"></i> <span class="info-title">技能点</span></h2>
+                <hr>
+                <ul class="progress-list">
+                    <li>
+                        <label class="left-label">Java</label>
+                        <progress value="100" max="100"></progress>
+                    </li>
+                    <li>
+                        <label class="left-label">Oracle/SQL</label>
+                        <progress value="90" max="100"></progress>
+                    </li>
+                    <li>
+                        <label class="left-label">SSH</label>
+                        <progress value="80" max="100"></progress>
+                    </li>
+                    <li>
+                        <label class="left-label">html/css/Javascript</label>
+                        <progress value="70" max="100"></progress>
+                    </li>
+                </ul>
+            </div>
+            <div class="stack info-unit">
+                <h2 class="info-header"><i class="iconfont icon-build"></i> <span class="info-title">技术栈</span></h2>
+                <hr>
+                <ul class="stack-list">
+					<li>
+                        <label class="left-label">基础</label><span class="label-value">Java基础扎实，理解io、多线程、集合等基础框架，对JVM原理有一定了解</span></li>
+                    </li>
+					<li>
+                        <label class="left-label">框架</label><span class="label-value">熟悉Spring、Struts、Hibernate等常用框架；熟悉主流设计模式</span></li>
+                    </li>
+					<li>
+                        <label class="left-label">数据库</label><span class="label-value">熟练使用Oracle、MySQL等数据库</span></li>
+                    </li>
+					<li>
+                        <label class="left-label">工作流程</label><span class="label-value">熟悉软件开发过程，能够沟通需求、控制项目进度，有良好的文档能力，熟悉MQ、ActiveMQ的工作流程、熟悉Maven流程</span></li>
+                    </li>
+					<li>
+                        <label class="left-label">测试</label><span class="label-value">每个类都会写对应的单元测试，覆盖率达到80%及以上；帮助team搭建自动化测试和Monitor机制</span></li>
+                    </li>
+                </ul>
+            </div>
+
+           <!-- <div class="code info-unit">
+                <h2 class="info-header"><i class="iconfont icon-weixin"></i> <span class="info-title">个人微信</span></h2>
+                <hr>
+                <div class="weixin">
+                    <img src="weixin.jpg" alt="">
+
+                </div>
+            </div>
+            <div class="remodal remodal-img" data-remodal-id="weixin-modal">
+                <h3>请输入图片URL地址：</h3>
+                <br/>
+                <input type="text" id="weixin-url">
+                <button data-remodal-action="confirm" class="remodal-confirm">确定</button>
+            </div>-->
+        </div>
+        <div class="main">
+			<div class="aboutme info-unit right-paragraph">
+                <h2 class="info-header"><i class="iconfont icon-flower"></i> <span class="info-title">自我评价</span></h2>
+                <hr>
+                <li>
+                    <h3>一名有经验的Java开发者，在软件和金融业从业2年多。对新技术保持持久的热情，希望寻求高级Java开发相关的工作。</h3>
+                </li>
+            </div>
+            <div class="education info-unit right-list">
+                <h2 class="info-header"><i class="iconfont icon-education"></i> <span class="info-title">教育经历</span></h2>
+                <hr>
+                <ul class="experience-list">
+                    <li>
+                        <h3>浙江工业大学 - 软件工程专业（本科） 2011.9-2015.6</h3>
+                    </li>
+                </ul>
+            </div>
+            <div class="work info-unit right-list">
+                <h2 class="info-header"><i class="iconfont icon-work"></i> <span class="info-title">工作经历</span></h2>
+                <hr>
+                <ul class="experience-list">
+                    <li>
+                        <h3>道富信息科技（浙江）有限公司--Gold Copy项目组Java开发 2015.6-至今</h3>
+                        <p>参与道富统一的交易数据存储库的设计、开发和维护，通过智能协调工作流和规则引擎验证来提供各种数据源的公共副本，以改进对账过程，提高数据对账效率。为客户构建更全面，更智能的客户报告，实时风险监控等服务。
+                        </p>
+                    </li>
+                    <li>
+                        <h3>新浪浙江传媒有限公司--产品技术部PHP开发（实习） 2014.11-2015.4</h3>
+                        <p>独立开发双微抽奖平台和新浪编务助手。
+                        </p>
+                    </li>
+					<li>
+                        <h3>网新恒天软件有限公司--Java开发（实习） 2014.7-2014.10</h3>
+                        <p>参与中英泰合作银行系统的后台数据校验模块开发工作。
+                        </p>
+                    </li>
+                </ul class="experience-list">
+            </div>
+            <div class="project info-unit right-list">
+                <h2 class="info-header"><i class="iconfont icon-project"></i> <span class="info-title">个人项目</span></h2>
+                <hr>
+                <ul class="experience-list">
+                    <li>
+                        <h3>Gold Copy -- 数据中心</h3>
+                        <p>参与了不同类型和格式的数据源的存储、转换、校验、改进、use case、下发等模块的设计、开发、测试（单元测试、集成测试）和维护工作。主要目的是收集公司内外部不同的数据源，将本需要传真或电话手动验证交易的新兴衍生品自动化处理，并达到数据的标准化，实现公司的数据中心。后台整体用的框架是Long Term（内部框架，类似于Spring），XSLT实现部分XML的转换，DAO实现和数据库的交互，MQ用于接收和下发数据到其他系统，ActiveMQ用于系统内部模块之间的传输，Drools实现模块之间下发的规则处理。
+                        </p>
+                    </li>
+                    <li>
+                        <h3>Gold Copy -- Cash Reconciliation（资金对账系平台）</h3>
+                        <p>
+                            参与了平台前端Accounting、Custody及数据格式展示和搜索模块前端和后台的开发，便于公司内外部系统用户查看和操作不同数据源的资金情况和格式类型。前端主要采用CDT2.0（GWT），后台采用IDF和DAO实现。
+                        </p>
+                    </li>
+                    <li>
+                        <h3>基于移动客户端的城市公共设施健康巡查系统</h3>
+                        <p>
+                            xxxxxx
+                        </p>
+                    </li>
+                    <li>
+                        <h3>汉字规范化演示与评测系统</h3>
+                        <p>参与系统设计、数据库设计与实现和登录注册、书写、评分模块的前后端开发工作。作为主讲，最终PC版获得了浙江省第十三届“挑战杯”大学生课外学术科技作品竞赛二等奖，嵌入式版本获得了第九届全国大学生嵌入式物联网设计大赛本科组全国一等奖、华东一等奖。
+                        </p>
+                    </li>
+                </ul>
+            </div>
+            <div class="trophy info-unit">
+                <h2 class="info-header"><i class="iconfont icon-trophy"></i> <span class="info-title">奖项与证书</span></h2>
+                <hr>
+                <ul class="experience-list">
+                    <li>
+                        <h3>证书</h3>
+						<p>中级软件设计师、英语四级、Certified ScrumMaster认证、嵌入式系统助理工程师等</p>
+                    </li> 
+					<li>
+                        <h3>在校荣誉</h3>
+						<p>多次获得校级奖学金、校级专业学术竞赛一等奖、二等奖</p>
+                    </li> 
+					<li>
+						<h3>在校评价</h3>
+                        <p>优秀学生干部、优秀团干、社会实践先进个人、先进工作者等</p>
+                    </li> 
+					<li>
+						<h3>在校职位</h3>
+                        <p>连续四年担任班级班长，曾担任过校学生会宣编副部长、大学生ACM协会副会长、院学生会办公室部长、校广播电台主持人组播音员等</p>
+                    </li>   					
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
