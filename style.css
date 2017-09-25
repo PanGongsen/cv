@@ -205,11 +205,11 @@ progress::-moz-progress-value {
     margin-top:20px;
     margin-bottom: 10px;
     background-image:url('https://pangongsen.github.io/cv/monitor.png');
-    background-size: 120%;
+    background-size: 100%;
     background-position:center;
     border-radius:0%;
     border:5px solid #607d8b;
-    width:600px;
+    width:620px;
     height:400px;
 }
 .container {
