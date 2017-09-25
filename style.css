@@ -200,13 +200,24 @@ progress::-moz-progress-value {
     height:200px;
 }
 
-
+.portrait-monitor {
+    margin: 0 auto;
+    margin-top:20px;
+    margin-bottom: 10px;
+    background-image:url('https://pangongsen.github.io/cv/monitor.PNG');
+    background-size: 120%;
+    background-position:center;
+    border-radius:0%;
+    border:5px solid #607d8b;
+    width:600px;
+    height:400px;
+}
 .container {
     position: relative;
     margin: 0 auto;
 
     width: 1050px;
-    height: 1450px;
+    height: 2400px;
     background-color: white;
 
 }
