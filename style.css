@@ -30,7 +30,7 @@ span {
 }
 
 .label-value{
-    width: 200px;
+    width: 250px;
     vertical-align: top;
 }
 
@@ -216,15 +216,15 @@ progress::-moz-progress-value {
     position: relative;
     margin: 0 auto;
 
-    width: 1050px;
-    height: 2400px;
+    width: 1350px;
+    height: 3200px;
     background-color: white;
 
 }
 
 .side {
     position: absolute;
-    width: 360px;
+    width: 450px;
     height: 100%;
     background-color: whitesmoke;
     padding-left: 20px;
@@ -234,7 +234,7 @@ progress::-moz-progress-value {
 .main {
     
     position: relative;;
-    margin-left: 360px;
+    margin-left: 450px;
     min-height: 100%;
     padding: 20px;
 
